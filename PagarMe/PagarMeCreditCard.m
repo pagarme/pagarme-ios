@@ -69,12 +69,12 @@
     _callbackBlock = block;
     
     NSString *url = [NSString stringWithFormat:@"%@/transactions/card_hash_key", API_ENDPOINT];
-    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
     [parameters setObject:[[PagarMe sharedInstance] encryptionKey] forKey:@"encryption_key"];
     
-    [manager GET:url parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [manager GET:url parameters:parameters progress:nil success:^(NSURLSessionTask *task, id responseObject) {
         
         NSArray *_id = [responseObject objectForKey:@"id"];
         NSString *publicKey = [responseObject objectForKey:@"public_key"];
@@ -84,7 +84,7 @@
         
         _callbackBlock(nil, [NSString stringWithFormat:@"%@_%@", _id, encryptedString]);
         
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+    } failure:^(NSURLSessionTask *operation, NSError *error) {
         _callbackBlock(error, nil);
     }];
 }
