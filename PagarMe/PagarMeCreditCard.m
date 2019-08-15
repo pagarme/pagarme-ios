@@ -11,7 +11,7 @@
 #import "PagarMeCreditCard.h"
 #import "PagarMe.h"
 #import "Luhn.h"
-#import "RSA.h"
+#import "PagarmeRSA.h"
 
 @interface PagarMeCreditCard ()
 
@@ -80,7 +80,7 @@
         NSString *publicKey = [responseObject objectForKey:@"public_key"];
         NSString *cardHashString = [self cardHashString];
         
-        NSString *encryptedString = [RSA encryptString:cardHashString publicKey:publicKey];
+        NSString *encryptedString = [PagarmeRSA encryptString:cardHashString publicKey:publicKey];
         
         _callbackBlock(nil, [NSString stringWithFormat:@"%@_%@", _id, encryptedString]);
         

@@ -1,5 +1,5 @@
 //
-//  RSA.h
+//  PagarmeRSA.h
 //  My
 //
 //  Created by ideawu on 15-2-3.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface RSA : NSObject
+@interface PagarmeRSA : NSObject
 
 + (NSString *)encryptString:(NSString *)str publicKey:(NSString *)pubKey;
 + (NSString *)encryptData:(NSData *)data publicKey:(NSString *)pubKey;
