@@ -1,15 +1,15 @@
 //
-//  RSA.m
+//  PagarmeRSA.m
 //  My
 //
 //  Created by ideawu on 15-2-3.
 //  Copyright (c) 2015年 ideawu. All rights reserved.
 //
 
-#import "RSA.h"
+#import "PagarmeRSA.h"
 #import <Security/Security.h>
 
-@implementation RSA
+@implementation PagarmeRSA
 
 static NSString *base64_encode_data(NSData *data){
 	data = [data base64EncodedDataWithOptions:0];
@@ -72,7 +72,7 @@ static NSData *base64_decode(NSString *str){
 	
 	// This will be base64 encoded, decode it.
 	NSData *data = base64_decode(key);
-	data = [RSA stripPublicKeyHeader:data];
+	data = [PagarmeRSA stripPublicKeyHeader:data];
 	if(!data){
 		return nil;
 	}
@@ -119,14 +119,14 @@ static NSData *base64_decode(NSString *str){
 
 + (NSString *)encryptString:(NSString *)str publicKey:(NSString *)pubKey{
 	NSData* data = [str dataUsingEncoding:NSUTF8StringEncoding];
-	return [RSA encryptData:data publicKey:pubKey];
+	return [PagarmeRSA encryptData:data publicKey:pubKey];
 }
 
 + (NSString *)encryptData:(NSData *)data publicKey:(NSString *)pubKey{
 	if(!data || !pubKey){
 		return nil;
 	}
-	SecKeyRef keyRef = [RSA addPublicKey:pubKey];
+	SecKeyRef keyRef = [PagarmeRSA addPublicKey:pubKey];
 	if(!keyRef){
 		return nil;
 	}
