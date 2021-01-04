@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'PagarMe_Example' do
+  pod 'PagarMe', :path => '../'
+
+  target 'PagarMe_Tests' do
+    inherit! :search_paths
+    
+  end
+end
