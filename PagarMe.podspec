@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.framework    = 'Security'
   s.requires_arc = true
 
-  s.dependency 'AFNetworking', '~> 3.0'
+  s.dependency 'AFNetworking', '~> 4.0'
   s.dependency 'ObjectiveLuhn', '~> 1.0'
 end
