@@ -74,7 +74,11 @@
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
     [parameters setObject:[[PagarMe sharedInstance] encryptionKey] forKey:@"encryption_key"];
     
-    [manager GET:url parameters:parameters progress:nil success:^(NSURLSessionTask *task, id responseObject) {
+    [manager GET:url
+       parameters:parameters
+          headers:nil
+         progress:nil
+          success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         NSArray *_id = [responseObject objectForKey:@"id"];
         NSString *publicKey = [responseObject objectForKey:@"public_key"];
