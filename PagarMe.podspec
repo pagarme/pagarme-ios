@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '11.0'
     s.ios.deployment_target = '11.0'
     s.source       = { :git => 'https://github.com/pagarme/pagarme-ios.git', :tag => s.version }
-    s.source_files = 'PagarMe/Classes/**/*'
+    s.source_files = 'Sources/PagarMe/Classes/**/*'
     s.framework    = 'Security'
     s.requires_arc = true
     s.dependency 'SwiftLuhn'

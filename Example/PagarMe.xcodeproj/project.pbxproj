@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50491EAE647D48254B109055 /* Pods_PagarMe_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800207B0B595D968C7B5FA92 /* Pods_PagarMe_Example.framework */; };
-		55A359F0F8D3DEE3C1EAB9F5 /* Pods_PagarMe_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42DB16F399D12CD0FB0345D /* Pods_PagarMe_Tests.framework */; };
+		0101E86FC0BCCD29C21A3D03 /* Pods_PagarMe_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80FD0BB7E791702A681D622 /* Pods_PagarMe_Example.framework */; };
+		1B7497E540427BD98866B2E6 /* Pods_PagarMe_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658C0F3E196A700EC59EF16B /* Pods_PagarMe_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,8 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06C9BF5E56DEA63C0D01F6D3 /* Pods-PagarMe_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagarMe_Example.release.xcconfig"; path = "Target Support Files/Pods-PagarMe_Example/Pods-PagarMe_Example.release.xcconfig"; sourceTree = "<group>"; };
+		40E379236F743EC59230BA11 /* Pods-PagarMe_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagarMe_Example.debug.xcconfig"; path = "Target Support Files/Pods-PagarMe_Example/Pods-PagarMe_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4E04E41C3E397DFDD3A62D50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		54B8C5C53938C4F96548C07A /* Pods-PagarMe_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagarMe_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PagarMe_Tests/Pods-PagarMe_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PagarMe_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagarMe_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,14 +41,13 @@
 		607FACE51AFB9204008FA782 /* PagarMe_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagarMe_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		765DC6A4AE6D41583960B3A0 /* Pods-PagarMe_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagarMe_Tests.release.xcconfig"; path = "Target Support Files/Pods-PagarMe_Tests/Pods-PagarMe_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		800207B0B595D968C7B5FA92 /* Pods_PagarMe_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagarMe_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		658C0F3E196A700EC59EF16B /* Pods_PagarMe_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagarMe_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		785AD7C4FBD54F2640F441B7 /* Pods-PagarMe_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagarMe_Example.release.xcconfig"; path = "Target Support Files/Pods-PagarMe_Example/Pods-PagarMe_Example.release.xcconfig"; sourceTree = "<group>"; };
 		82F8B2DDE187AD9A39B7E09A /* PagarMe.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PagarMe.podspec; path = ../PagarMe.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ACFA59E5259E855B003C68D6 /* PagarMe-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PagarMe-Swift.h"; sourceTree = "<group>"; };
 		AE661C9280203A65ADC42271 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		AEB622A069114EA25D248875 /* Pods-PagarMe_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagarMe_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PagarMe_Tests/Pods-PagarMe_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E42DB16F399D12CD0FB0345D /* Pods_PagarMe_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagarMe_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF6E81A91459BFCFAD9665E9 /* Pods-PagarMe_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagarMe_Example.debug.xcconfig"; path = "Target Support Files/Pods-PagarMe_Example/Pods-PagarMe_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B80FD0BB7E791702A681D622 /* Pods_PagarMe_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagarMe_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6AF6E58B08E6ABE59CDD41 /* Pods-PagarMe_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagarMe_Tests.release.xcconfig"; path = "Target Support Files/Pods-PagarMe_Tests/Pods-PagarMe_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50491EAE647D48254B109055 /* Pods_PagarMe_Example.framework in Frameworks */,
+				0101E86FC0BCCD29C21A3D03 /* Pods_PagarMe_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,29 +63,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55A359F0F8D3DEE3C1EAB9F5 /* Pods_PagarMe_Tests.framework in Frameworks */,
+				1B7497E540427BD98866B2E6 /* Pods_PagarMe_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09CEE1040CCE5DAF5974467B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				800207B0B595D968C7B5FA92 /* Pods_PagarMe_Example.framework */,
-				E42DB16F399D12CD0FB0345D /* Pods_PagarMe_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		55A027F56D9C48E7DACFC8DD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FF6E81A91459BFCFAD9665E9 /* Pods-PagarMe_Example.debug.xcconfig */,
-				06C9BF5E56DEA63C0D01F6D3 /* Pods-PagarMe_Example.release.xcconfig */,
-				AEB622A069114EA25D248875 /* Pods-PagarMe_Tests.debug.xcconfig */,
-				765DC6A4AE6D41583960B3A0 /* Pods-PagarMe_Tests.release.xcconfig */,
+				40E379236F743EC59230BA11 /* Pods-PagarMe_Example.debug.xcconfig */,
+				785AD7C4FBD54F2640F441B7 /* Pods-PagarMe_Example.release.xcconfig */,
+				54B8C5C53938C4F96548C07A /* Pods-PagarMe_Tests.debug.xcconfig */,
+				FF6AF6E58B08E6ABE59CDD41 /* Pods-PagarMe_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -98,7 +89,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				55A027F56D9C48E7DACFC8DD /* Pods */,
-				09CEE1040CCE5DAF5974467B /* Frameworks */,
+				B10C6C75FE0C3234D3EF2318 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +152,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		B10C6C75FE0C3234D3EF2318 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B80FD0BB7E791702A681D622 /* Pods_PagarMe_Example.framework */,
+				658C0F3E196A700EC59EF16B /* Pods_PagarMe_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,11 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "PagarMe_Example" */;
 			buildPhases = (
-				483E37095EFAC0AE0DF8F1EE /* [CP] Check Pods Manifest.lock */,
+				25C5F551A31B0B7CD90E21C6 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				225FA7707EE2CF2F2F4EB06A /* [CP] Embed Pods Frameworks */,
+				9E8985CB5F149E47E1830C57 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,7 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "PagarMe_Tests" */;
 			buildPhases = (
-				08A36888B64B08922CC4560C /* [CP] Check Pods Manifest.lock */,
+				2D6B31EDF0C9CB6094C4C500 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -265,7 +265,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08A36888B64B08922CC4560C /* [CP] Check Pods Manifest.lock */ = {
+		25C5F551A31B0B7CD90E21C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PagarMe_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D6B31EDF0C9CB6094C4C500 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,7 +309,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		225FA7707EE2CF2F2F4EB06A /* [CP] Embed Pods Frameworks */ = {
+		9E8985CB5F149E47E1830C57 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -305,28 +327,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PagarMe_Example/Pods-PagarMe_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		483E37095EFAC0AE0DF8F1EE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PagarMe_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -488,7 +488,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF6E81A91459BFCFAD9665E9 /* Pods-PagarMe_Example.debug.xcconfig */;
+			baseConfigurationReference = 40E379236F743EC59230BA11 /* Pods-PagarMe_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XHLUB827PS;
@@ -504,7 +504,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06C9BF5E56DEA63C0D01F6D3 /* Pods-PagarMe_Example.release.xcconfig */;
+			baseConfigurationReference = 785AD7C4FBD54F2640F441B7 /* Pods-PagarMe_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XHLUB827PS;
@@ -520,7 +520,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEB622A069114EA25D248875 /* Pods-PagarMe_Tests.debug.xcconfig */;
+			baseConfigurationReference = 54B8C5C53938C4F96548C07A /* Pods-PagarMe_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -542,7 +542,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 765DC6A4AE6D41583960B3A0 /* Pods-PagarMe_Tests.release.xcconfig */;
+			baseConfigurationReference = FF6AF6E58B08E6ABE59CDD41 /* Pods-PagarMe_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
