@@ -16,3 +16,8 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+.DS_Store
+
+Example/Pods/
+
+.build/

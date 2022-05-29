@@ -1,0 +1,23 @@
+PODS:
+  - PagarMe (2.0.0):
+    - SwiftLuhn
+  - SwiftLuhn (1.0.0)
+
+DEPENDENCIES:
+  - PagarMe (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftLuhn
+
+EXTERNAL SOURCES:
+  PagarMe:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PagarMe: 7d7a9520f23348b0b1ba2f3c92059a3266f9deea
+  SwiftLuhn: 20ec3fe2b00699f5b2867c0133236722b05b902d
+
+PODFILE CHECKSUM: d102f00e87fc0b743e0be6d5b3ec6cd4f1a90434
+
+COCOAPODS: 1.11.3
